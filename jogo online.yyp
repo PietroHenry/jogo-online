@@ -35,12 +35,18 @@
   },
   "name":"jogo online",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"ft_menu","path":"fonts/ft_menu/ft_menu.yy",},},
+    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
+    {"id":{"name":"rm_choose","path":"rooms/rm_choose/rm_choose.yy",},},
+    {"id":{"name":"rm_network_client","path":"rooms/rm_network_client/rm_network_client.yy",},},
+    {"id":{"name":"rm_network_server","path":"rooms/rm_network_server/rm_network_server.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_choose","path":"rooms/rm_choose/rm_choose.yy",},},
+    {"roomId":{"name":"rm_network_client","path":"rooms/rm_network_client/rm_network_client.yy",},},
+    {"roomId":{"name":"rm_network_server","path":"rooms/rm_network_server/rm_network_server.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
