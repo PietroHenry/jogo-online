@@ -48,6 +48,7 @@
     {"id":{"name":"obj_part_enemy","path":"objects/obj_part_enemy/obj_part_enemy.yy",},},
     {"id":{"name":"obj_part_entity","path":"objects/obj_part_entity/obj_part_entity.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_render_player","path":"objects/obj_render_player/obj_render_player.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"rm_choose","path":"rooms/rm_choose/rm_choose.yy",},},
     {"id":{"name":"rm_network_client","path":"rooms/rm_network_client/rm_network_client.yy",},},

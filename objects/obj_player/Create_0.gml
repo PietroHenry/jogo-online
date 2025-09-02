@@ -1,7 +1,12 @@
 event_inherited();
 sock = noone;
+randomize();
 x = random_range(100, room_width - 100);
 mask_index = spr_player_pink_Idle;
+
+jump_force = 7;
+move_spd_max = 6;
+
 enum PLAYER
 {
 	PINK,

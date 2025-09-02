@@ -29,7 +29,9 @@ var _col = function(_colisivel)
 
 vspd += grav;
 
-_col(obj_wall)
+_col(obj_wall);
+
+move_spd = clamp(move_spd,-move_spd_max,move_spd_max);
 
 hspd = clamp(hspd,-hspd_max,hspd_max);
 vspd = clamp(vspd,-vspd_max,vspd_max);
@@ -37,8 +39,8 @@ vspd = clamp(vspd,-vspd_max,vspd_max);
 x+=hspd;
 y+=vspd;
 
-if x <= sprite_width / 2 || x >= room_width - (sprite_width / 2)
+if x <= sprite_get_width(sprite_index) / 2 || x >= room_width - (sprite_get_width(sprite_index) / 2)
 {
 	hspd = 0;
-	x = clamp(x,sprite_width / 2,room_width - (sprite_width / 2));
+	x = clamp(x,sprite_get_width(sprite_index) / 2,room_width - (sprite_get_width(sprite_index) / 2));
 }
